@@ -1,0 +1,245 @@
+/*REINICIO BODY*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+/*FIN REINICIO BODY*/
+
+/*INICIO HEADER*/
+
+.header
+    {
+    background-color:black;
+    }
+
+.header__img
+    {
+    width:100%
+    }
+
+.header__nav
+    {
+    text-align: center;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    }
+
+.header__item
+    { 
+    display: inline;
+    margin: 1rem;   
+    }
+
+.header__a
+    {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    }
+
+.header__a--activo
+    {
+    color: aqua;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    }
+
+/*FIN HEADER*/
+
+/*INICIO CUERPO*/
+
+.cuerpo__div
+    {
+    margin: 50px;
+    }
+
+    .cuerpo__div--especial
+    {
+    margin:0px 50px 0px 50px;  
+    }
+
+.cuerpo__div--iframe
+    {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4rem;
+    }
+
+.cuerpo__h1
+    {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 2;
+    }
+
+.cuerpo__h1--importante
+    {
+    color: red;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2;
+    }
+    
+.cuerpo__h2
+    {
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 2;
+    }
+    
+.cuerpo__h3
+    {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 2
+    }
+
+.cuerpo__p 
+    {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    }
+
+.cuerpo__img    
+    {
+    width: 500px;
+    height: 350px;
+    align-self: center;
+    }
+
+.cuerpo__ol
+    {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    }
+
+.section__l
+    {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    align-items: center;
+    }
+
+.section__r
+    {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 50px;
+    align-items: center;
+    }
+
+    /*FIN CUERPO*/
+
+    /*INICIO CONTACTO*/
+
+.contacto__main
+    {
+    background-color:#0B877D;
+    display: flex;
+    justify-content: center;
+    }    
+
+.contacto__div
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    }
+
+.contacto__h1
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #031727;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding:3rem;
+    }
+
+.contacto__form
+    {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: auto; 
+    display: block;
+    }
+    
+.contacto__select
+    {
+    margin: 0px 0px 20px 0px;
+    }
+
+.contacto__label
+    {
+    text-align: center;
+    padding: 5px;
+    }
+
+.contacto__titulo
+    {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    }
+
+    .contacto__boton
+    {
+    margin: auto; 
+    display: block;
+    padding: 10px;
+
+    }
+
+
+    /*FIN CONTACTO*/
+
+
+    /*INICIO FOOTER*/
+
+.footer
+    {
+    height: 100px;
+    background-color: aqua;
+    }
+
+.footer__h1
+    {
+    color: white;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 2;
+    }
+
+.footer__p
+    {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bolder;
+    }
+
+    /*FIN FOOTER*/
