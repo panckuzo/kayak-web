@@ -1,6 +1,6 @@
 /*REINICIO BODY*/
 
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -154,6 +154,7 @@
     background-color:#0B877D;
     display: flex;
     justify-content: center;
+   
     }    
 
 .contacto__div
@@ -244,3 +245,87 @@
 
     /*FIN FOOTER*/
 
+    /*MEDIA QUERIES (ESTILOS MOVILES)*/
+
+@media screen and (max-width: 425px) 
+    {
+
+    .header__item
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    }
+
+    .section__l
+    { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    align-items: center;
+    }
+
+    .section__r
+    {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: center;
+    }
+
+    .cuerpo__img
+    {
+    width: 85%;
+    }
+
+    iframe
+    {
+    width: auto;
+    height: auto;
+    }
+
+    }  
+
+@media screen and (max-width: 768px) 
+    {
+
+    .header__item
+    {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    }
+
+    .section__l
+    { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    align-items: center;
+    }
+
+    .section__r
+    {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    align-items: center;
+    }
+
+    iframe
+    {
+    width: 85%;
+    }
+
+    }
+
+
+@media screen and (max-width: 1024px)
+    {
+        
+    iframe
+    {
+    width: 85%;
+    }  
+
+    }
