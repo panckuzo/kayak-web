@@ -37,16 +37,16 @@
     {
     color: white;
     text-decoration: none;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
     }
 
 .header__a--activo
     {
-    color: aqua;
+    color: #18C29C;
     text-decoration: none;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
     }
 
 /*FIN HEADER*/
@@ -72,43 +72,43 @@
 
 .cuerpo__h1
     {
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursiva;
     text-align: left;
     line-height: 2;
     }
 
-.cuerpo__h1--importante
+.cuerpo__h2--importante
     {
     color: red;
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursiva;
     text-align: center;
     line-height: 2;
     }
     
 .cuerpo__h2
     {
-    font-size: 1.25rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', cursiva;
     text-align: left;
     line-height: 2;
     }
     
 .cuerpo__h3
     {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursiva;
     text-align: left;
     line-height: 2
     }
 
 .cuerpo__p 
     {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.5rem;
     }
 
 .cuerpo__img    
@@ -120,8 +120,8 @@
 
 .cuerpo__ol
     {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     line-height: 1.5;
     margin: 1rem;
@@ -154,12 +154,11 @@
     background-color:#0B877D;
     display: flex;
     justify-content: center;
-   
     }    
 
 .contacto__div
     {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -167,7 +166,7 @@
 
 .contacto__h1
     {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;;
     color: #031727;
     font-weight: bold;
     font-size: 2rem;
@@ -182,6 +181,7 @@
     padding: 30px;
     margin: auto; 
     display: block;
+    margin-block-end:20px
     }
     
 .contacto__select
@@ -195,14 +195,24 @@
     padding: 5px;
     }
 
+    .contacto__imput
+    {
+    padding: 3px;
+    }
+
 .contacto__titulo
     {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', cursive;
     color: black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     padding: 20px;
+    }
+
+    .contacto__txarea
+    {
+    margin-top: 10px;
     }
 
     .contacto__boton
@@ -222,22 +232,22 @@
 .footer
     {
     height: 100px;
-    background-color: aqua;
+    background-color: #18C29C;
     }
 
-.footer__h1
+.footer__h2  
     {
     color: white;
-    font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-family: 'Rock Salt', cursiva;
     text-align: center;
     line-height: 2;
     }
 
 .footer__p
     {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: rem;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     line-height: 1.5;
     font-weight: bolder;

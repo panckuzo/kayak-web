@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- inicio google font -->
+    <!-- bebas neue - roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,300&family=Rock+Salt&display=swap" rel="stylesheet">
+    <!-- fin google font -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,19 +47,19 @@
                     <legend class="contacto__titulo">INFORMACION PERSONAL</legend>
                         <div class="contacto__div">
                             <label class="contacto__label" for="NOMBRE Y APELLIDO">Nombre y Apellido</label>
-                            <input type="text" name="NOMBRE Y APELLIDO" id="NOMBRE Y APELLIDO" required>
+                            <input class="contacto__imput" type="text" name="NOMBRE Y APELLIDO" id="NOMBRE Y APELLIDO" required>
                         </div>
                         <div class="contacto__div">
                             <label class="contacto__label"   for="e-mail">e-mail</label>
-                            <input type="email" name="e-mail" id="e-mail" required>
+                            <input class="contacto__imput" type="email" name="e-mail" id="e-mail" required>
                         </div>
                         <div class="contacto__div">
                             <label  class="contacto__label" for="tel">Telefono</label>
-                            <input type="number" name="tel" id="tel">
+                            <input class="contacto__imput" type="number" name="tel" id="tel">
                         </div>
                         <div class="contacto__div">
                             <label class="contacto__label" for="pais">Pais</label>
-                            <select name="pais" id="pais" required>
+                            <select class="contacto__imput" name="pais" id="pais" required>
                                 <option value="Afganistán">Afganistán</option>
                                 <option value="Albania">Albania</option>
                                 <option value="Alemania">Alemania</option>
@@ -250,11 +258,11 @@
                         </div>
                         <div class="contacto__div">
                             <label class="contacto__label" for="ciudad">Ciudad</label>
-                            <input type="text" name="ciudad" id="ciudad" required>
+                            <input  class="contacto__imput" type="text" name="ciudad" id="ciudad" required>
                         </div>
                         <div class="contacto__div">
                             <label class="contacto__label"  for="consulta sobre: ">Consulta sobre:</label>
-                            <select class="contacto__select" name="consulta sobre:" id="">consulta sobre:
+                            <select class="contacto__imput" class="contacto__select" name="consulta sobre:" id="">consulta sobre:
                                 <option value="tipos de kayaks">Tipos de kayaks</option>
                                 <option value="maniobras/tecnicas">Maniobras / tecnicas</option>
                                 <option value="travesias">Travesias</option>
@@ -263,7 +271,7 @@
                             </select>
                         </div>
                         <div class="contacto__div">
-                            <textarea name="Mensaje" id="Mensaje" cols="30" rows="10">Mensaje</textarea>
+                            <textarea class="contacto__txarea" name="Mensaje" id="Mensaje" cols="30" rows="10">Mensaje</textarea>
                         </div>
                         <input class="contacto__boton" type="submit" value="Enviar">
                 </fieldset>
@@ -273,7 +281,7 @@
 </body>
 
 <footer class="footer">
-    <h1 class="footer__h1">KAYAK es un estilo de VIDA</h1>
+    <h1 class="footer__h2">KAYAK es un estilo de VIDA</h1>
     <p class="footer__p">Sitio Web creado por Luciano Boldrini - 2022</p>
 </footer>
 
