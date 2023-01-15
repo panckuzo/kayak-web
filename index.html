@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
 
-    <!-- inicio google font -->
+    <!-- INICIO GOOGLE FONT -->
     <!-- bebas neue - roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,300&family=Rock+Salt&display=swap" rel="stylesheet">
-    <!-- fin google font -->
+    <!-- FIN GOOGLE FONT -->
+
+    <!--INICIO AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- FIN AOS -->
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +22,7 @@
 </head>
 <body>
     <header class="header">
-    <img class="header__img" src="./img/portada1.jpg" alt="portada">
+    <img class="header__img"  src="./img/portada1.jpg" alt="portada">
         
         <nav class="header__nav">
             <ul>
@@ -55,11 +60,17 @@
             <br>Hasta los años 50, los kayaks fueron construidos de madera en su mayoría, cuando en Estados Unidos comenzaron a aparecer los Kayaks de fibra de vidrio. Actualmente los materiales de construcción de los kayaks varían, pudiendo encontrarse de fibra de vidrio, fibra de carbono, plástico, etc., según el uso que se le dé.
         </div>
     </main>
-</body>
 
 <footer  class="footer">
-    <h1 class="footer__h2">KAYAK es un estilo de VIDA</h1>
+        <h1 class="footer__h2">KAYAK es un estilo de VIDA</h1>
     <p class="footer__p">Sitio Web creado por Luciano Boldrini - 2022</p>
+    <img class="footer__img" data-aos="fade-left" data-aos-offset="300"
+    data-aos-easing="ease-in-sine" src="../img/kayak-footer.png" alt="kayak">
 </footer>
 
+<script>
+    AOS.init();
+</script>
+
+</body>
 </html>
