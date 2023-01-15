@@ -137,6 +137,7 @@
     align-items: center;
     }
 
+
 .section__r
     {
     display: flex;
@@ -286,7 +287,7 @@
 
     .cuerpo__img
     {
-    width: 85%;
+    width: 75%;
     }
 
     iframe
