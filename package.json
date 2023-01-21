@@ -1,0 +1,22 @@
+{
+  "name": "kayak",
+  "version": "1.0.0",
+  "description": "un paquete para compilar SCSS a CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panckuzo/kayak-web.git"
+  },
+  "author": "Luciano Boldrini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panckuzo/kayak-web/issues"
+  },
+  "homepage": "https://github.com/panckuzo/kayak-web#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
