@@ -1,0 +1,51 @@
+/*HEADER*/
+
+.header
+    {
+    background-color:black;
+
+    &__img
+    {
+    width:100%
+    }
+
+    &__nav
+    {
+    text-align: center;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    }
+
+    &__item
+    { 
+    display: inline;
+    margin: 1rem;   
+    }
+
+    &__a
+    {
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    }
+    
+    &__a--activo
+    {
+    color: #18C29C;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+/*CONTACTO*/
+
+.contacto__main
+    {
+    background-color:#0B877D;
+    display: flex;
+    justify-content: center;
+    }    
+
+.contacto__div
+    {
+    font-family: 'Bebas Neue', cursive;;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    }
+
+.contacto__h1
+    {
+    font-family: 'Bebas Neue', cursive;;
+    color: #031727;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding:3rem;
+    }
+
+.contacto__form
+    {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: auto; 
+    display: block;
+    margin-block-end:20px
+    }
+    
+.contacto__select
+    {
+    margin: 0px 0px 20px 0px;
+    }
+
+.contacto__label
+    {
+    text-align: center;
+    padding: 5px;
+    }
+
+    .contacto__imput
+    {
+    padding: 3px;
+    }
+
+.contacto__titulo
+    {
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 20px;
+    }
+
+    .contacto__txarea
+    {
+    margin-top: 10px;
+    }
+
+    .contacto__boton
+    {
+    margin: auto; 
+    display: block;
+    padding: 10px;
+    }
