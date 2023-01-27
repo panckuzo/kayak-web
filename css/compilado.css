@@ -1,0 +1,27 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  background-color: black; }
+  .header__img {
+    width: 100%; }
+  .header__nav {
+    text-align: center;
+    list-style: none;
+    padding: 0.5rem 1rem; }
+  .header__item {
+    display: inline;
+    margin: 1rem; }
+  .header__a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem; }
+  .header__a--activo {
+    color: #18C29C;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem; }
