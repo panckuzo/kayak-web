@@ -1,7 +1,7 @@
-@import "./parciales/-variables.scss";
+@import "./parciales/variables";
 @import "./parciales/reset";
-@import  "./parciales/header";
+@import "./parciales/header";
 @import "./parciales/cuerpo";
 @import "./parciales/contacto";
 @import "./parciales/footer";
-
+@import "./parciales/mediaqueries"

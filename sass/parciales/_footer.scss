@@ -1,31 +1,25 @@
-/*FOOTER*/
-
 .footer
     {
-    background-color: #18C29C;
-    }
-
-.footer__h2  
+    background-color: $Cverdeagua;
+    &__h2  
     {
-    color: white;
+    color: $Cblanco;
     font-size: 2rem;
-    font-family: 'Rock Salt', cursiva;
+    font-family: $Lfooter;
     text-align: center;
     line-height: 2;
     }
-
-.footer__p
+    &__p
     {
     font-size: rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: $Lroboto;
     text-align: center;
     line-height: 1.5;
     font-weight: bolder;
     }
-
-    .footer__a
+    &__a
     {
-    color: black;
+    color: $Cnegro;
     font-size: 2rem;
     }
-
+    }

@@ -1,31 +1,29 @@
 /*CONTACTO*/
 
-.contacto__main
+.contacto{
+    &__main
     {
-    background-color:#0B877D;
+    background-color:$Cverdeoscuro;
     display: flex;
     justify-content: center;
     }    
-
-.contacto__div
+    &__div
     {
-    font-family: 'Bebas Neue', cursive;;
+    font-family: $Lbebas;;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     }
-
-.contacto__h1
+    &__h1
     {
-    font-family: 'Bebas Neue', cursive;;
-    color: #031727;
+    font-family: $Lbebas;
+    color: $Cgris;
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
     padding:3rem;
     }
-
-.contacto__form
+    &__form
     {
     max-width: 400px;
     width: 100%;
@@ -34,41 +32,37 @@
     display: block;
     margin-block-end:20px
     }
-    
-.contacto__select
+    &__select
     {
     margin: 0px 0px 20px 0px;
     }
 
-.contacto__label
+    &__label
     {
     text-align: center;
     padding: 5px;
     }
-
-    .contacto__imput
+    &__imput
     {
     padding: 3px;
     }
-
-.contacto__titulo
+    &__titulo
     {
-    font-family: 'Bebas Neue', cursive;
-    color: black;
+    font-family: $Lbebas;
+    color: $Cnegro;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     padding: 20px;
     }
-
-    .contacto__txarea
+    &__txarea
     {
     margin-top: 10px;
     }
-
-    .contacto__boton
+    &__boton
     {
     margin: auto; 
     display: block;
     padding: 10px;
     }
+}
