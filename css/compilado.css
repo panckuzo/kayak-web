@@ -28,6 +28,9 @@
     font-size: 2rem; }
 
 /*CUERPO*/
+main {
+  overflow: hidden; }
+
 .cuerpo {
   background-color: white; }
   .cuerpo__div {
@@ -38,6 +41,12 @@
       text-align: center;
       font-family: "Roboto", sans-serif;
       line-height: 4rem; }
+    .cuerpo__div--flex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-start: initial;
+      gap: 2rem;
+      padding: 2rem 0rem 0rem 0rem; }
   .cuerpo__h1 {
     font-size: 3rem;
     font-family: "Bebas Neue", cursive;
@@ -62,8 +71,7 @@
   .cuerpo__p {
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
-    text-align: left;
-    line-height: 1.5rem; }
+    text-align: left; }
   .cuerpo__img {
     width: 500px;
     height: 350px;
