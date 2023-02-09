@@ -5,28 +5,29 @@ main
 
 .cuerpo{
     background-color: $Cblanco;
-    &__div
-    {
+        &__div
+        {
     margin: 0rem 4rem 1rem 4rem;
-        &--especial
+            &--especial
     {
     margin:0px 50px 0px 50px;  
     }
-        &--iframe
+            &--iframe
     {
     text-align: center;
     font-family: $Lroboto;
     line-height: 4rem;
     }
-        &--flex
-        {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-start: initial;
-        gap: 2rem;
-        padding: 2rem 0rem 0rem 0rem;
-        }
+            &--flex
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-start: initial;
+    gap: 2rem;
+    padding: 2rem 0rem 0rem 0rem;
     }
+    }
+    
     &__h1
     {
     font-size: 3rem;
@@ -47,6 +48,7 @@ main
     font-family:$Lbebas;
     text-align: center;
     line-height: 2;
+    text-shadow: #666 0px 0px 15px;
     }
     }
     &__h3
@@ -79,8 +81,8 @@ main
     box-sizing: border-box;
     }
     }
-
-
+    
+    
 
 .section
     {
@@ -99,3 +101,5 @@ main
         align-items: center;
         }
     }
+
+    
